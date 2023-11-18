@@ -247,6 +247,9 @@ const Header = () => {
         <a href="#about" onClick={(e) => scrollUp("about", e)}>
           About Us
         </a>
+        <a href="https://blog.qubic.com.ng/">
+         Blog
+        </a>
         <a href="#services" onClick={(e) => scrollUp("services", e)}>
           Services
         </a>
