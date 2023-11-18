@@ -1,0 +1,54 @@
+
+.image-container .hover-content.fadeIn{
+    width: 100%!important;
+    height: 100%!important;
+}
+.ckhuKL{
+    width: 350!important;
+    height: 350px!important;
+}
+@media (max-width:7680px) {
+    .ckhuKL{
+        width: 100%!important;
+        height: 350px!important;
+    }
+}
+.portfolio-thumb {
+    margin: 0 auto;
+    margin-bottom: 9%;
+
+    /* width: 100%;
+    height: 100%; */
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    
+
+    img {
+        width: 100%;
+        transition: transform .25s, visibility .25s ease-in;
+    }
+    :hover img {
+        transform: scale(1.5);
+    }
+    .image-container {
+        .hover-content {
+            width: 100% !important;
+            height: 100% !important;
+            // background: $primaryColor;
+        }
+        .title {
+            color: white;
+            opacity: 1;
+            margin-top: 40%;
+            font-weight: 900;
+            font-size: 30px;
+            // font-family: $secondaryFont;
+        }
+        .hover-content.fadeIn {
+            opacity: 0.9;
+        }
+    }
+}

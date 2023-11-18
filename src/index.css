@@ -1,0 +1,16 @@
+/* For the 'Now-Black.otf' font */
+@font-face {
+  font-family: "Now-Black";
+  src: url("./assets/now.zip/Now-Black.otf") format("opentype");
+}
+
+/* Similarly, do it for other fonts */
+@font-face {
+  font-family: "Now-Bold";
+  src: url("./assets/now.zip/Now-Bold.otf") format("opentype");
+}
+
+h1 {
+  font-family: "Now-bold", sans-serif;
+}
+/* ... and so on for each .otf file */
