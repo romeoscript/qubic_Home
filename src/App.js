@@ -3,6 +3,7 @@ import { lazy, Suspense } from "react";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PureChatWidget from "./components/PureChat";
+import Create from "./Pages/Create";
 // import ProjectCard from "./components/projects";
 
 const Home = lazy(() => import("./Pages/Home"));
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/create" element={<Create />} />
           </Routes>
           <PureChatWidget />
           <Footer />
