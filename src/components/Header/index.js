@@ -265,6 +265,7 @@ const Header = () => {
         <a href="#about" onClick={(e) => handleClick("about", e)}>
           About Us
         </a>
+        <a href="https://blog.qubic.com.ng/">Blog</a>
         <a href="#services" onClick={(e) => handleClick("services", e)}>
           Services
         </a>
