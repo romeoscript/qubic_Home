@@ -41,7 +41,7 @@ console.log(filePreview);
         formData.append('file', selectedFile);
 
         try {
-            const response = await axios.post('http://localhost:4000/upload-csv', formData, {
+            const response = await axios.post('https://outart.up.railway.app/upload-csv', formData, {
                 responseType: 'blob',
                 headers: {
                     'Content-Type': 'multipart/form-data',
@@ -84,6 +84,7 @@ console.log(filePreview);
                         value={apiKey}
                         onChange={handleApiKeyChange}
                         className="w-64 px-4 py-2 border rounded-md"
+                        required
                     />
                 </div>
                 <button type="submit" disabled={loading} className='bg-[steelblue] text-white rounded-md p-[0.5rem] block my-[1rem] w-[200px] m-auto'>
