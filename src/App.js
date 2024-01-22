@@ -4,6 +4,7 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PureChatWidget from "./components/PureChat";
 import Create from "./Pages/Create";
+import FileUpload from "./Pages/Upload";
 // import ProjectCard from "./components/projects";
 
 const Home = lazy(() => import("./Pages/Home"));
@@ -25,6 +26,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/create" element={<Create />} />
+            <Route path="/upload" element={<FileUpload />} />
           </Routes>
           <PureChatWidget />
           <Footer />

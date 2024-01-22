@@ -27,7 +27,7 @@ const Home = () => {
       <ProjectCard />
       <Services />
       <Card />
-      <Team />
+      {/* <Team /> */}
       <Testimonials />
       <Contact />
     </Container>
